@@ -1,0 +1,50 @@
+# Compte rendu TP01-git
+
+## Partie 1
+1. Voici l'url de mon compte GitHub : https://github.com/SompayracLoic
+   
+## Partie 2
+1. **Voici la sortie de `gitconfig --list --global` :**<br>
+   `user.name=Loic Sompayrac ` <br>
+   `user.email=loic.sompayrac@e.rascol.net` <br>
+   `init.defaultbranch=main` <br>
+   `core.editor=nano`
+
+2. L'option `--global` sert à écrire ces paramètres pour tous les repos de ma session plutôt que pour chaque repo spécifiquement.
+   
+## Partie 3
+1. **Git status réponds :** <br>
+   `fatal: ni ceci ni aucun de ses répertoires parents (jusqu'au point de montage /) n'est un dépôt git` <br>
+   `Arrêt à la limite du système de fichiers (GIT_DISCOVERY_ACROSS_FILESYSTEM n'est pas défini).` <br>
+   Puisque le système de fichier que l'on a créé n'est pas encore un repo GitHub.
+
+2. a) Le dossier que `git init` a créé est le dossier *".git"*.<br> 
+    On ne le voyait pas avec un simple `ls` car le point *"."* devant le nom du dossier, indique àLinux que c'est un dossier caché.
+
+   b) Git status réponds maitenant : <br>
+   `Sur la branche main`
+
+   `Aucun commit`
+
+   `rien à valider (créez/copiez des fichiers et utilisez "git add" pour les suivre)`
+
+3. a) `git status` range `README.md` dans la catégorie des fichiers non suivis.<br>
+   b) Le fichier se trouve dans le répertoire de travail de git.
+
+4. a) Ce qui a changé dans la réponse de `git status` est le répertoire dans lequel se trouve `README.md`. <br>
+   b) Le fichier `README.md` se trouve maitenant dans la zone de préparation de git.
+
+5. a) Voici la sortie de `git log` : <br>
+   `commit 4686606452eeba39d6b319ddabcad2807f34d1f4 (HEAD -> main)` <br>
+   `Author: Loic Sompayrac <loic.sompayrac@e.rascol.net>`<br>
+   `Date:   Tue Sep 29 16:22:42 2026 +0200`<br>
+
+   ` Création du README`
+   
+   b) **Hash :** "4686606452eeba39d6b319ddabcad2807f34d1f4" <br> 
+   **Auteur :** "Loic Sompayrac \<loic.sompayrac@e.rascol.net>" <br>
+   **Date :** Tue Sep 29 16:22:42 2026 +0200 *(Mardi 29 Septembre 16h22 UTC - 02:00)*<br>
+   **Message :** Création du README
+
+   c) Le HASH comporte 40 caractères , est écrit en base 16, et représente un total de 160 bits.
+
