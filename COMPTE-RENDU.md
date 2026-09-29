@@ -48,3 +48,5 @@
 
    c) Le HASH comporte 40 caractères , est écrit en base 16, et représente un total de 160 bits.
 
+6. a) `git status` nous informe que le fichier `README.md` est modifié.<br>
+   b) `git dif` nous montre la différence entre la version locale du fichier et la version du fichier qui est sur le dépôt. Les `+` au début des lignes annoncent que c'est un nouveau changement que le fichier du dépôt n'a pas.
