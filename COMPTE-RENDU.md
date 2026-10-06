@@ -43,10 +43,13 @@
    
    b) **Hash :** "4686606452eeba39d6b319ddabcad2807f34d1f4" <br> 
    **Auteur :** "Loic Sompayrac \<loic.sompayrac@e.rascol.net>" <br>
-   **Date :** Tue Sep 29 16:22:42 2026 +0200 *(Mardi 29 Septembre 16h22 UTC - 02:00)*<br>
-   **Message :** Création du README
+   **Date :** "Tue Sep 29 16:22:42 2026 +0200" *(Mardi 29 Septembre 16h22 UTC - 02:00)*<br>
+   **Message :** "Création du README"
 
    c) Le HASH comporte 40 caractères , est écrit en base 16, et représente un total de 160 bits.
 
-6. a) `git status` nous informe que le fichier `README.md` est modifié.<br>
+
+7. a) `git status` nous informe que le fichier `README.md` est modifié.<br>
    b) `git dif` nous montre la différence entre la version locale du fichier et la version du fichier qui est sur le dépôt. Les `+` au début des lignes annoncent que c'est un nouveau changement que le fichier du dépôt n'a pas.
+
+8.
