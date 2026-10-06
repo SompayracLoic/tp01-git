@@ -122,5 +122,9 @@
 
 ## Partie 7
 
-1. 
+1. a) Le clone contient aussi l'historique des anciennes verisons.<br>
+   b) Le fichier boruilon.txt n'est pas présent dans le clone car il est exclu par le gitignore.<br>
+   c) Non, je n'ai pas eu besoin d'effectuer une de ces commandes.
+
+2. 
 
