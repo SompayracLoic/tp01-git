@@ -128,12 +128,51 @@
 
 2. Il faut prendre cette habitude car si on oublie de faire `git pull`, alors on ne retrouvera pas les fichiers que nous avons modifiés à la maison, et si l'on oublie de faire `git push`, alors on ne pourra pas reprendre le travail que l'on a commencé en cours depuis chez nous.
 
-#Partie 7
-     Commentée car j'ai pas utilisé ceci pour mon md mais c'est demandé dans le script de vérification.
--->
-
-1. a)La sortie finale du script est :<br> 
+3. a)La sortie finale du script est :<br> 
 ```
+TP01 — Découverte de Git et GitHub : vérification
+Dépôt vérifié : /rhome/lsompayrac/tp-git/tp01-git
+
+=== Partie 2 — Configuration de Git ===
+  [OK]     Nom configuré (user.name)
+  [OK]     E-mail configuré (user.email)
+  [OK]     Branche par défaut : main
+  [INFO]   Auteur des commits : Loic Sompayrac <loic.sompayrac@e.rascol.net>
+
+=== Partie 3 — Premier dépôt ===
+  [OK]     Le dossier est un dépôt Git
+  [OK]     Branche courante : main
+  [OK]     README.md est suivi
+  [OK]     COMPTE-RENDU.md est suivi
+  [OK]     memo-git.md est suivi
+  [OK]     Au moins 8 commits
+  [OK]     Messages de commit variés
+  [INFO]   Nombre de commits : 18
+
+=== Partie 4 — .gitignore ===
+  [OK]     .gitignore est suivi
+  [OK]     brouillon.txt est ignoré
+  [OK]     Les fichiers *.log sont ignorés
+  [OK]     brouillon.txt n'est pas dans le dépôt
+
+=== Partie 5 — Clé SSH ===
+  [OK]     Clé privée ~/.ssh/id_ed25519 présente
+  [OK]     Clé publique ~/.ssh/id_ed25519.pub présente
+  [ECHEC]  Clé privée protégée (600)
+  [OK]     Authentification SSH auprès de GitHub
+  [OK]     Aucune clé privée dans l'historique du dépôt
+
+=== Partie 6 — Publication sur GitHub ===
+  [OK]     Dépôt distant origin en SSH (git@github.com:…/tp01-git.git)
+  [OK]     Dépôt distant accessible (git fetch)
+  [OK]     Un commit fait depuis l'interface web de GitHub, récupéré avec git pull
+  [ECHEC]  Aucune modification en attente (git status propre)
+  [OK]     Tous les commits sont poussés sur GitHub
+
+=== Partie 7 — Compte rendu ===
+  [ECHEC]  COMPTE-RENDU.md contient la partie 7
+
+Score : 22 / 25 — corrigez les points en ECHEC, puis relancez le script.
 
 ```
    b) On peut effectuer `git commit`, mais pas `git push`. Puisque `git commit` reste sur notre poste tandis que `git push` essaye de l'envoyer aux serveurs de Github alors que nous n'avons pas leur clef ni leur passphrase.
