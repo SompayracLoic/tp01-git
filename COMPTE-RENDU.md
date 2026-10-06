@@ -126,5 +126,5 @@
    b) Le fichier boruilon.txt n'est pas présent dans le clone car il est exclu par le gitignore.<br>
    c) Non, je n'ai pas eu besoin d'effectuer une de ces commandes.
 
-2. 
+2. Il faut prendre cette habitude car si on oublie de faire `git pull`, alors on ne retrouvera pas les fichiers que nous avons modifiés à la maison, et si l'on oublie de faire `git push`, alors on ne pourra pas reprendre le travail que l'on a commencé en cours depuis chez nous.
 
