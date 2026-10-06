@@ -63,3 +63,11 @@
 
 ## Partie 4
 
+1. `git show` montre le changement qui a été poussé dans ce commit sur le fichier `README.md` ainsi que l'heure et la date du commit.
+
+2. `git restore` a fait en sorte que le fichier `README.md` retourne à l'état de son dernier commit. Ainsi, non, si on le l'avais jamais commit, alors git restore n'aurait pas marché.
+
+3. `test.txt` se retrouve dans la zone des fichiers non suivis. Le fichier n'a pas été supprimé du disque mais ne sera simplement pas suivi par git.
+
+4. a)Tous les fichiers "parasites" que nous avions créés ont disparus de la de la réponse de git status.<br>
+   b)Le fichier.`gitignore` en revanche, lui, apparaît. Oui il faut commit le fichier `.gitignore`.

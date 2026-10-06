@@ -1,0 +1,6 @@
+# Brouillons et fichiers de test
+brouillon.txt
+test.txt
+
+# Journaux
+*.log
