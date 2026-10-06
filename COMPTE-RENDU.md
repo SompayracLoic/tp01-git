@@ -128,3 +128,12 @@
 
 2. Il faut prendre cette habitude car si on oublie de faire `git pull`, alors on ne retrouvera pas les fichiers que nous avons modifiés à la maison, et si l'on oublie de faire `git push`, alors on ne pourra pas reprendre le travail que l'on a commencé en cours depuis chez nous.
 
+#Partie 7
+     Commentée car j'ai pas utilisé ceci pour mon md mais c'est demandé dans le script de vérification.
+-->
+
+1. a)La sortie finale du script est :<br> 
+```
+
+```
+   b) On peut effectuer `git commit`, mais pas `git push`. Puisque `git commit` reste sur notre poste tandis que `git push` essaye de l'envoyer aux serveurs de Github alors que nous n'avons pas leur clef ni leur passphrase.
