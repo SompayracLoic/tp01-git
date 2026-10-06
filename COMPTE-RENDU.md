@@ -76,4 +76,18 @@
 
 ## Partie 5
 
+1. a) Deux fichiers ont été créés :<br>
+   - `id_ed25519` : C'est ma clef privée.<br>
+   - `id_ed25519.pub` : C'est ma clef publique.<br>
+   b) Les permissions des deux fichiers se présentent comme telles : <br>
+   `-rwx------ 1 lsompayrac 1cielir-26-27  464 oct.   6 14:42 id_ed25519`<br>
+   `-rwx------ 1 lsompayrac 1cielir-26-27  109 oct.   6 14:42 id_ed25519.pub`<br>
+   Par défaut, j'ai des droits 600 car seulement moi (l'utilisateur) doit y avoir accès.
+
+2. a) `ssh -T git@github.com` renvoie : <br>
+   `Hi SompayracLoic! You've successfully authenticated, but GitHub does not provide shell access.`<br>
+   b) On peut sans danger donner la clef publique à Github car elle ne fonctionne pas sans la clef privée. La clef privée tant qu'à elle est faite pour identifier le poste sur lequel elle se trouve, et permettre à la clef publique, d'établir une connexion entre le pc et Github. Si quelqu'un choppe ma clef privée, il peut se faire passer pour mon poste, et supprimer tout mon repo.
+
+## Partie 6
+
 1. 
