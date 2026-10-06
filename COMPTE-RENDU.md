@@ -52,4 +52,14 @@
 7. a) `git status` nous informe que le fichier `README.md` est modifié.<br>
    b) `git dif` nous montre la différence entre la version locale du fichier et la version du fichier qui est sur le dépôt. Les `+` au début des lignes annoncent que c'est un nouveau changement que le fichier du dépôt n'a pas.
 
-8.
+8. a) Voici la sortie de `git log --oneline` : <br> 
+   `cc464c2 (HEAD -> main) Commit puisque le tp m'y force`<br> 
+   `813894d Création de l'aide mémoire Git`<br> 
+   `c7c8de5 Ajout des questions 3.7 (fin du cours)`<br> 
+   `12b741d Ajout de l'année scolaire dans le README`<br> 
+   `751d084 Ajout du compte rendu (questions 0 à 3.5)`<br> 
+   `4686606 Création du README` <br> 
+   b) Il est préférable de ne faire qu'un seul commit puisque de cette façon nous pouvons avoir un historique des versions plus précis et détaillé en cas de problèmes.
+
+## Partie 4
+
