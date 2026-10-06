@@ -90,4 +90,28 @@
 
 ## Partie 6
 
-1. 
+1. a) Sortie de `git remote -v` :<br>
+      `origin	git@github.com:SompayracLoic/tp01-git.git (fetch)`<br>
+      `origin	git@github.com:SompayracLoic/tp01-git.git (push)`<br>
+
+      Sortie de `git push -u origin main` :
+      ```
+      Énumération des objets: 31, fait.
+      Décompte des objets: 100% (31/31), fait.
+      Compression par delta en utilisant jusqu'à 12 fils d'exécution
+      Compression des objets: 100% (30/30), fait.
+      Écriture des objets: 100% (31/31), 5.35 Kio | 1.78 Mio/s, fait.
+      Total 31 (delta 10), réutilisés 0 (delta 0), réutilisés du pack 0
+      remote: Resolving deltas: 100% (10/10), done.
+      To github.com:SompayracLoic/tp01-git.git
+       * [new branch]      main -> main
+      la branche 'main' est paramétrée pour suivre 'origin/main'.
+      ```
+    b) Oui, l'historique de Github est le même qu'avec la commande `git log --oneline`. Le fichier `Brouillon.txt` ne se trouve pas sur Github car il est spécifié que Git doit l'ignorer dans le fichier `.gitignore`.
+   
+2. Mon dépôt local ne contient pas la modification du fichier `README.md`. La commande `git status` ne me préviens pas non plus que le fichier a un commit plus récent sur GitHub puisque pour l'instant le fichier reste sur Github étant donné que je n'ai pas fait de pull pour récupérer les changements.
+   
+3. On a récupéré les fichiers depuis Github avec leur modifications si ils l'ont été. L'auteur du dernier commit est Loïc associé à mon adresse mail... puisque c'est quand même moi.
+
+
+
