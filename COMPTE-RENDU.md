@@ -113,5 +113,14 @@
    
 3. On a récupéré les fichiers depuis Github avec leur modifications si ils l'ont été. L'auteur du dernier commit est Loïc associé à mon adresse mail... puisque c'est quand même moi.
 
+4. 
+```
+   Répertoire de travail --( git add )--> Zone de préparation --( git commmit )--> Dépôt local --( git push )--> GitHub
+          ^                                                                                                        |
+          +-----------------------------------------------( git pull )---------------------------------------------+
+```
 
+## Partie 7
+
+1. 
 
