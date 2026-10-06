@@ -71,3 +71,9 @@
 
 4. a)Tous les fichiers "parasites" que nous avions créés ont disparus de la de la réponse de git status.<br>
    b)Le fichier.`gitignore` en revanche, lui, apparaît. Oui il faut commit le fichier `.gitignore`.
+
+5. Lors du premier commit, `README.md` ne contenait que le corps du texte, depuis, l'année scolaire depuis laquelle il a été créé a été ajoutée.
+
+## Partie 5
+
+1. 
